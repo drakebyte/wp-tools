@@ -1,0 +1,19 @@
+{
+    "name": "Website",
+    "id": "website.com",
+    "adminUser": "website_admin",
+    "adminEmail": "websites.core@mywebgrocer.com",
+    "urls": {
+        "local": "website.local",
+        "dev": "website.wpdev.mywebgrocer.com",
+        "qa": "website.wpqa.mywebgrocer.com",
+        "uat": "website.uat.mywebgrocer.com",
+        "prod": "www.website.com"
+    },
+    "db": {
+        "name": "website_db",
+        "user": "website_usr",
+        "host": "localhost",
+        "pass": "9QBUBghyEkhU81cFnO85"
+    }
+}
