@@ -25,7 +25,8 @@ function command_install_plugins() {
     }
     
     foreach ($config['plugins'] as $name => $ver) {
-        $out = shell_exec("wp plugin install $name --activate --version=$ver");
+		$version = ($ver == '') ? '' : "--version=$ver";
+        $out = shell_exec("wp plugin install $name --activate $version");
         fwrite(STDOUT, $out . "\r\n");
     }
 }
