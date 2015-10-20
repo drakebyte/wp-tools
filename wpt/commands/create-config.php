@@ -11,12 +11,12 @@ function command_create_config() {
         'name' => 'Website',
         'id' => 'website.com',
         'adminUser' => 'site_admin',
-        'adminEmail' => 'websites.core@mywebgrocer.com',
+        'adminEmail' => 'admin@website.com',
         'urls' => array(
             'local' => 'website.local',
-            'dev' => 'website.wpdev.mywebgrocer.com',
-            'qa' => 'website.wpqa.mywebgrocer.com',
-            'uat' => 'website.uat.mywebgrocer.com',
+            'dev' => 'dev.website.com',
+            'qa' => 'qa.website.com',
+            'uat' => 'uat.website.com',
             'prod' => 'www.website.com',
         ),
         'db' => array(
