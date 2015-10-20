@@ -11,6 +11,7 @@ function command_create_config() {
         'name' => 'Website',
         'id' => 'website.com',
         'adminUser' => 'site_admin',
+        'adminPass' => 'admin',
         'adminEmail' => 'admin@website.com',
         'urls' => array(
             'local' => 'website.local',
